@@ -1,0 +1,14 @@
+3_points/
+camera_list/
+documents/
+frames/
+images/
+reports/
+.env/
+rv/
+**/__pycache__/
+*.log
+data/
+databases/
+config/
+**/*.mp4
