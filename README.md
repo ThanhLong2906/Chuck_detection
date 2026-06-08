@@ -94,3 +94,8 @@ tròn trong cùng vùng lõi mâm. Bước này để thiết lập vùng mà th
 + Sau khi thiết lập xong ảnh thứ nhất, ấn lưu file config.
 #### Bước 7: 
 Mở ảnh mẫu thứ hai, giữ nguyên file config. Ấn vào nút ”Chấu mở”. Ấn một điểm vào tâm tâm, điểm thứ hai vào tâm của lỗ chấu gần tâm mâm, điểm thứ ba vào tâm của lỗ chấu xa tâm mâm. Bước này để đo khoảng cách từ tâm mâm đến tâm các lỗ chấu khi chấu mở. Sau đó lưu lại thay đổi
+### Giai đoạn 2: 
+Xác định chấu an toàn để robot để đưa phôi vào
+```
+python src/RobotVision/main.py --image [đường dẫn ảnh chấu] --config [đường dẫn file config]
+```

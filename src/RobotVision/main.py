@@ -19,7 +19,7 @@ import os
 import numpy as np
 if __name__ == "__main__":    
     parser = argparse.ArgumentParser(description="Công cụ đo góc xoay của mâm 3 chấu")
-    parser.add_argument("--mode", type=str, default="robot", choices = ["local","robot"],help="Chế độ nhận đầu vào: \n + local: nhận ảnh tĩnh từ máy local\n + robot: nhận ảnh từ camera")
+    parser.add_argument("--mode", type=str, default="local", choices = ["local","robot"],help="Chế độ nhận đầu vào: \n + local: nhận ảnh tĩnh từ máy local\n + robot: nhận ảnh từ camera")
     parser.add_argument("--detect", type=str, choices= ["circle", "edge"], default = "circle", help="Cách xác định góc xoay\n + circle: sử dụng các lỗ trên chấu để xác định góc xoay.\n+ edge: Sử dụng cạnh của chấu để xác định góc xoay.")
     parser.add_argument("--image", type=str, help="Đường dẫn đến ảnh cần xử lý")
     parser.add_argument("--config", type=str, help="Đường dẫn đến file cấu hình")
