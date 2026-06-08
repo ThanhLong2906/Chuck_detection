@@ -3,7 +3,7 @@
 ## Features
 - Xác định vùng an toàn trên mâm 3 chấu để  robot gắp phôi kim loại ra.
 
-![Mâm 3 chấu trong máy CNC](/home/long/PROJECTS/AI/ChuckDetection/result.jpg)
+![Mâm 3 chấu trong máy CNC](result.jpg)
 ## Tech Stack
 - Python 3.12+
 - OpenCV
